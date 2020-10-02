@@ -1,0 +1,172 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    
+    height: 100vh;
+
+/*     background-image: url(../img/hinh-anh-nen-may-tinh-dep_102457270.png); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo > a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-left: 18px;
+
+    color: white;
+}
+.info{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-top: 10px;
+
+    font-size: 1.4rem;
+    color: rgb(73, 73, 73);
+}  
+
+.title{
+    margin: 36px 0;
+    color: rgb(73, 73, 73);
+    text-align: center;
+    font-size: 1.8rem;
+}
+table{
+    border-spacing: 0;
+
+    margin: 0 auto;
+}
+th, td{
+    font-size: 1.5rem;
+    height: 50px;
+}
+
+
+
+.btn-logout{
+    margin: 0 18px;
+    width: 80px;
+    height: 36px;
+    
+    border: none;
+    border-radius: 4px;
+    
+    outline: none;
+    box-shadow: 0px 0px 2px 0px;
+    
+    cursor: pointer;   
+}
+.btn-list{ 
+	position: relative;
+    top: -50px;
+    left: 65%;
+    margin-bottom: 14px;
+    width: 80px;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    color: rgb(73, 73, 73);
+    outline: none;
+    box-shadow: 0px 0px 2px 0px;
+    cursor: pointer;
+    
+    background: rgb(239, 239, 239);
+    text-align: center;
+    text-decoration: none;
+    line-height: 36px;
+    font-size: 16px;
+}
+.btn-add{
+	display: block;
+	position: relative;
+    top: 0;
+    left: 71%;
+    margin-bottom: 14px;
+    width: 80px;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    color: rgb(73, 73, 73);
+    outline: none;
+    box-shadow: 0px 0px 2px 0px;
+    cursor: pointer;
+    background: rgb(239, 239, 239);
+    text-align: center;
+    text-decoration: none;
+    line-height: 36px;
+    font-size: 14px;
+}
+
+.btn-add:hover{
+    background-color: rgba(240, 240, 240, 0.7);
+}
+.btn-list:hover{
+    background-color: rgba(240, 240, 240, 0.7);
+}
+
+
+.td1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.btn{
+    width: 70px;
+    height: 36px;
+    border: none;
+    border-radius: 6px;
+    margin-right: 6px;
+
+    box-shadow: 0px 0px 2px 0px;
+    outline: none;
+    cursor: pointer;
+
+}
+.list-btn{
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.list-link{
+    text-decoration: none;
+    color: rgb(73, 73,73);
+    padding: 12px 18px;
+    line-height: 36px;
+    color: white;
+
+}
+.btn-edit{
+    background-color: rgb(64, 224, 208);
+}
+.btn-edit:hover{
+    background-color:rgba(64, 224, 208, 0.5);
+}
+.btn-del{
+    background: rgb(248, 74, 10);
+    color: white;
+}
+
+.btn-del:hover{
+    background: rgb(248, 74, 10,  0.5);
+}
